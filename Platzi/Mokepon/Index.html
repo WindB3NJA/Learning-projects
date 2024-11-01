@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mokepon 🔥💧🌱</title>
+    <link rel="icon" href="content/assets/Page-icon.png">
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <meta charset="utf-8">
+    <script src="content/Game.js"></script>
+</head>
+
+<body>
+<div id="All-game-content">
+    <section id="Landing-Page">
+        <h1 class="Landing-title">Mokepon</h1>
+        <h2 class="Landing-subtitle">🔥💧🌱</h2>
+        <p class="landing-Message">¡Embárcate en esta facinante Batalla Mokepon!</p>
+    </section>
+    <div id="player-Mokepon-choise">
+        <h2 class="sub-title">¡Elige a Tú Mokepon!</h2>
+        <div class="section-mokepon">
+            <section class="Mokepon-card"><label for="Radinten"><img src="content/assets/Mokepons/Radinten.png"
+                        class="image"><label for="Radinten">🔥Raditen</label></label></section>
+            <input type="radio" name="Mokepon" id="Radinten" />
+
+            <section class="Mokepon-card"><label for="Mizutana"><img
+                        src="content/assets/Mokepons/Mizutana.png" class="image"><label
+                        for="Mizutana">💧Mizutana</label></label></section>
+            <input type="radio" name="Mokepon" id="Mizutana" />
+
+            <section class="Mokepon-card"><label for="Hanize"><img
+                        src="content/assets/Mokepons/Hanize.png" class="image"><label
+                        for="Hanize">🌱Hanize</label></label></section>
+            <input type="radio" name="Mokepon" id="Hanize" />
+        </div>
+        <div class="section-mokepon">
+            <section class="Mokepon-card"><label for="Mizuhi"><img
+                        src="content/assets/Mokepons/Mizuhi.png" class="image"><label
+                        for="Mizuhi">🔥💧Mizuhi</label></label></section>
+            <input type="radio" name="Mokepon" id="Mizuhi" />
+
+            <section class="Mokepon-card"><label for="Hazu"><img
+                        src="content/assets/Mokepons/Hazu.png" class="image"><label
+                        for="Hazu">💧🌱Hazu</label></label></section>
+            <input type="radio" name="Mokepon" id="Hazu" />
+
+            <section class="Mokepon-card"><label for="Hahine"><img
+                        src="content/assets/Mokepons/Hahine.png" class="image"><label
+                        for="Hahine">🌱🔥Hahine</label></label></section>
+            <input type="radio" name="Mokepon"id="Hahine" />
+        </div>
+        <button id="button-select-mokepon" class="user-button">Confirmar</button>
+    </div>
+    <div id="battle-Results">
+        <section>
+            <h2>Resutlados del combate</h2>
+        </section>
+        <div id="section-restart">
+            <section>
+                <button id="button-restart" class="user-button">Reiniciar</button>
+            </section>
+        </div>
+    </div>
+    <div id="player-atack-choise">
+        <section>
+            <h2>Batalla</h2>
+            <section id="battle-images">
+            <div id="rivals-hub">
+                <section class="hub-rival">
+                    <p id="hub-div"><span id="rival-mokepon-name"></span> Rival tiene <span id="rival-life">3</span> HP</p>
+                    <p id="image-rival-mokepon"></p>
+                    <h3>El Rival</h3>
+                </section>
+                <section class="hub-player">
+                    <p id="hub-div"><span id="player-mokepon-name"></span> tiene <span id="player-life"> 3 </span> HP</p>
+                    <p id="image-player-mokepon"></p>
+                    <h3>Tu Mokepon</h3> 
+                </section>
+        </div>
+        <div id="buttons-atack">
+            <h2>¡Elige Tú Ataque!</h2>
+            <p>
+                <button id="button-fire">Fuego</button>
+                <button id="button-water">Agua</button>
+                <button id="button-plant">Planta</button>
+            </p>
+        </div>
+            </section>
+        </section>
+    </div>
+    <div id="battle-messages">
+        <div id="messages">
+            <section class="rivals-Desing">
+                <h2>Rival</h2>
+                <p id="Rival-atacks"></p>
+            </section>
+            <section id="Results-Design">
+                <h2>Resultado</h2>
+                <p id="battle-status"></p>
+            </section>
+            <section class="rivals-Desing">
+                <h2>Tú</h2>
+                <p id="Player-atacks"></p>
+            </section>
+        </div>
+    </div>
+    <div>
+        <footer>Proyecto Creado Por WindB3NJA</footer>
+    </div>
+</div>
+</body>
+
+</html>
